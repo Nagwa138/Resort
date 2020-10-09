@@ -1,2 +1,0 @@
-# Resort
-Resort Project
