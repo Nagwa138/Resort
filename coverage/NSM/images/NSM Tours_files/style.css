@@ -1,0 +1,256 @@
+/*Template Name:NSM Tours
+
+first-color:#3ac4fa;
+text-color:#5a5959;
+header-color:#212121;
+
+*/
+
+/**NAVBAR STYLE*/
+
+
+ .navbar{
+	font-size:18px;
+    background-color: rgb(58 196 250 / 35%);
+    z-index: 4;
+
+}
+ .navbar-brand{
+    margin-right: 80px;
+    font-size: 29px;
+
+}
+.navbar-brand span{
+	color:#333;
+}
+.navbar-toggler {
+    background-color: #f8f9fa;
+    border: 1px solid #000000b0;
+  }
+  .navbar a{
+	color:#fff;
+    font-weight: bold;
+
+}
+ .nav-link:hover,
+ .login-link:hover {
+    color: #333;
+    text-decoration: none;
+
+}
+
+
+/*search animation*/
+
+
+.searchBox {
+    background: #2f3640;
+    height: 57px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-right: 20px;
+
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #2f3640;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+/*END NAVBAR STYLE*/
+/**START CAROUSEL STYLE*/
+.carousel{
+	z-index:0;
+    top: -73px;
+
+}
+.carousel .carousel-inner .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 38%);
+    z-index: 1;
+}
+.carousel-caption{
+	right:50%;
+	bottom:50%;
+	left:0;
+	padding-bottom: 0;
+	padding-top: 0;
+	width:100%;
+}
+.carousel-caption h5{
+	font-size:50px;
+}
+
+/**END CARSOUEL STYLE*/
+
+/**START WELCOME STYLE*/
+.welcome{
+	background-color: #f8f5f5;
+    text-align: center;
+   
+
+}
+.welcome-content{
+    padding-top: 80px;
+
+}
+.welcome-content h1{
+	color:#212121;
+    margin-bottom: 25px;
+
+}
+.welcome-content h1 span{
+	color:#3ac4fa;
+}
+.welcome-content p{
+	color:#5a5959;
+    margin-bottom: 25px;
+
+}
+.welcome img{
+	width:100%;
+	border: 1px solid #e5e3e3;
+    border-radius: 5px;
+    margin-top: 39px;
+}
+
+/**END WELCOME STYLE*/
+
+/*START DESTINATION**/
+.destination{
+	text-align: center;
+	margin-top:25px;
+}
+.destination h1{
+	margin-bottom: 25px;
+	color:#3ac4fa;
+}
+.destination img{
+    width: 100%;
+    border-radius: 5px;
+}
+.destination .dest{
+	position: relative;
+	text-align: center;
+    margin-top: 30px;
+
+}
+.destination .dest-head{
+	position: absolute;
+	color:#fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	  font-size: 23px;
+
+}
+.destination .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 38%);
+    z-index: 1;
+}
+
+.dest img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.dest figure {
+	width: 350px;
+    height: 230px;
+	overflow: hidden;
+}
+.dest:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/**contact style**/
+.contact .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    z-index: 2;
+    background: rgb(0 0 0 / 38%);
+
+}
+.contact{
+	margin-top: 25px;
+	position: relative;
+	padding-top: 45px;
+    padding-bottom: 50px;
+	background-image: url("../images/1.jpg");
+	background-size: cover;
+	background-position: center center;
+	text-align:center;
+}
+.contact .container{
+	position: relative;
+	z-index: 3
+}
+.contact h1{
+	color:#fff;
+    margin-bottom: 36px;
+
+
+}
+.contact .form-control{
+    background-color: rgb(0 0 0 / 55%);
+    margin-bottom: 20px;
+
+}
+/**FOOTER**/
+.footer{
+	background-color: #3ac4fa;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    text-align: center;
+    color: #fff;
+}
+
+ 
